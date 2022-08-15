@@ -1,0 +1,29 @@
+BABYSITTER KATA NIGHTLY CHARGE APP
+
+This app has a couple components
+- backend flask app(/backend)
+- frontend React JS app (/frontend)
+- tests /backend/tests
+
+Start the backend:
+- start the venv (venv/Scripts/activate)
+- cd into /backend
+- pip install -r requirements.txt
+- python app.py
+
+Start the frontend
+- cd frontend
+- npm install
+- npm start
+
+Run the tests
+- python -m pytest
+
+Future Additions:
+- Only allow the user to select times in range and make end/bed time dynamic to the start time. User shouldn't be able to select and end time before the start time in the select menu (frontend)
+
+- Expand testing to frontend
+
+- Expand testing to flask app not just business logic
+
+- 
